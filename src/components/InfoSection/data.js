@@ -3,7 +3,7 @@ export const homeObjOne = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: '',
+    topLine: 'Hãy tìm hiểu thêm về chúng tôi và đăng kí lớp học',
     headline: 'GIỚI THIỆU NGOẠI NGỮ ÂU MỸ',
     description: 'Các bạn học viên thân mến! -Là nhà tiên phong mang lại nền tảng Anh ngữ giáo dục định hướng với đội ngũ giáo viên hơn 20 năm kinh nghiệm trong lĩnh vực giáo dục và đào tạo Tiếng Anh. Chúng tôi luôn tâm niệm rằng học viên học tiếng Anh không chỉ là học một ngôn ngữ mới mà còn là được truyền động lực học tập phát triền bản thân. Học viên ở trung tâm dược hưởng thụ điều kiện môi trường học tập quốc tế.',
     buttonLabel: 'Xem thêm',

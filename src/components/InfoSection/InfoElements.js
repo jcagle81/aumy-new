@@ -31,6 +31,7 @@ export const InfoWrapper = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 500px;
     }
 `;
 
@@ -57,9 +58,6 @@ export const Column1 = styled.div`
     padding: 0 15px;
     grid-area: col1;
 
-    @media screen and (max-width: 480px) {
-        
-    }
 `;
 
 export const Column2 = styled.div`
@@ -76,14 +74,21 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-    color: #fff;
-    font-size: 16px;
+    display: none;
+    color: #000;
+    font-size: 20px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
-    text-transform: uppercase;
     
     
+    @media screen and (max-width: 480px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;     
+
+    }
     
 `;
 
@@ -96,8 +101,9 @@ export const Heading = styled.h1`
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 
     @media screen and (max-width: 480px) {
-        font-size: 32px;
-
+        font-size: 22px;
+        font-weight: 600;
+        
     }
 `;
 
@@ -108,21 +114,42 @@ export const Subtitle = styled.p`
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 
-
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
 `;
 
 export const BtnWrap = styled.div`
     display: flex;
     justify-content: space-evenly;
     
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
+`;
+
+export const BtnWrapTwo = styled.div`
+
+    display: none;
+    justify-content: space-evenly;
+
+    @media screen and (max-width: 480px) {
+        display: flex;
+    }
 `;
 
 export const ImgWrap = styled.div`
-    max-width: 555px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 555;
     height: 100%;
 `;
 
 export const Img = styled.img`
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;

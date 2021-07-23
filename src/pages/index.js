@@ -23,7 +23,6 @@ const Home = () => {
         <Landing />
         <Info {...homeObjOne} />
         <Services />
-        <Info {...homeObjOne} />
         <Footer />
        </> 
     );

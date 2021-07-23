@@ -27,22 +27,22 @@ const toggleHome = () => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome}><img src={logo} height="70" width="80" /></NavLogo>
+                    <NavLogo to="/" onClick={toggleHome}><img src={logo} height="65" width="75" /></NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' offset={-80} >about</NavLinks>
+                            <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' offset={-80} >Giới thiệu</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="classes" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Classes</NavLinks>
+                            <NavLinks to="classes" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Nhiều lớp học</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="services" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Photo Library</NavLinks>
+                            <NavLinks to="services" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Thư viện ảnh</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="signup" smooth={true} duration={500} spy={true} exact='true' offset={-80}>News and Events</NavLinks>
+                            <NavLinks to="signup" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Tin tức và sự kiện</NavLinks>
                         </NavItem>
                     </NavMenu>
                     {/* <NavBtn>
