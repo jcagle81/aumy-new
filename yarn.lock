@@ -5755,6 +5755,11 @@ human-signals@^1.1.1:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
+i@^0.3.6:
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/i/-/i-0.3.6.tgz#d96c92732076f072711b6b10fd7d4f65ad8ee23d"
+  integrity sha1-2WyScyB28HJxG2sQ/X1PZa2O4j0=
+
 iconv-lite@0.4.24:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
@@ -6988,6 +6993,11 @@ levn@~0.3.0:
   dependencies:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
+
+linear-gradient-parser@^1.1.8:
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/linear-gradient-parser/-/linear-gradient-parser-1.1.8.tgz#a226445b023863c93411c6f889a7f0c065dce06a"
+  integrity sha512-p7kv4dH4uQf0eO7EeULcE7+xgViS/kHIdsQaah3T4TxGfAWvZR7TX5kkZu2zHyhXlWTLLP6mUwm2fKlD61n7Ag==
 
 lines-and-columns@^1.1.6:
   version "1.1.6"
@@ -9178,6 +9188,13 @@ react-is@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
+
+react-linear-gradient-picker@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/react-linear-gradient-picker/-/react-linear-gradient-picker-1.2.2.tgz#411b68e25ed4fbb49a8ec8c1831e6c831d261923"
+  integrity sha512-G/UUxn1g0YPH/rCKh1XxR0HgjEvT4nCyH5IcFHfpwVT57KPTMjDesPQE2usU31Yb8MHjd4kb2GsailQi5EbhcQ==
+  dependencies:
+    linear-gradient-parser "^1.1.8"
 
 react-refresh@^0.8.3:
   version "0.8.3"

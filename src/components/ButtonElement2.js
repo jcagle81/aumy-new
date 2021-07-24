@@ -18,7 +18,7 @@ export const Button = styled(Link)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: ${({primary}) => (primary ? '#FEED0D' : '#D8261C')};
-        color: ${({dark}) => (dark ? '#D8261C' : "#fff")};
+        background: ${({primary}) => (primary ? '#000' : '#D8261C')};
+        color: ${({dark}) => (dark ? '#fff' : "#fff")};
     }
 `;

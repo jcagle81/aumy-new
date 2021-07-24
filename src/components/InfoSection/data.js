@@ -32,4 +32,30 @@ export const homeObjtwo = {
     darkText: true,
 };
 
+export const AboutObj = {
+    id: 'classes',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: '',
+    headline: 'Các bạn học viên thân mến!',
+    description: 'Là nhà tiên phong mang lại nền tảng Anh ngữ giáo dục định hướng với đội ngũ giáo viên hơn 20 năm kinh nghiệm tromng lĩnh vực giáo dục và đào tạo Tiếng Anh. Chúng tôi luôn tâm niệm rằng học viên học tiếng Anh không chỉ là học một ngôn ngữ mới.',
+    info1:` - Trung tâm tự hào vì đã đào tạo được các học viên có thành tích vượt bật trong các kỳ thi quốc tế.`,
+    info2:`Đội ngũ giáo viên trình độ chuyên môn cao với phương pháp giảng dạy trực quan sẽ đem đến cho học viên những bài học sinh động, dễ hiểu dễ nhớ.`,
+    info3:`-  Giáo trình cô đọng, thực tế, phục vụ tốt cho các kì thi đánh giá năng lực Anh ngữ quốc tế (TOEIC, TOEFL, IELTS,…) Vì vậy học viên hoàn toàn tự tin để chuyển tiếp vào các khóa học luyện thi lấy những chứng chỉ này.`,
+    info4:`-  Học viên được rèn lu yện 4 kỹ năng NGHE – NÓI – ĐỌC – VIẾT thường xuyên , thông qua giáo án điện tử được trình chiếu trên màn ảnh LCD  trong suốt buổi học. `,
+    info5:`- Các khóa học đa dạng về cấp độ, học viên sẽ dễ dàng tìm được lớp học phù hợp nhất với trình độ của mình.`,
+    info6:`-  Trung tâm có nhiều chế độ học phí ưu đãi đặc biệt, nhằm khuyến khích học viên gắn bó lâu dài và đạt hiệu quả học tập cao nhất.`,
+    info7:`  - Với điều kiện học tập thuận lợi Trung Tâm Ngoại Ngữ Âu Mỹ cam kết mang đến cho các học viên thành công trong việc học tập Ngoại Ngữ của bản thân.`,
+    info8:`Chúc các bạn gặt hái được nhiều thành công trên hành trình tương lai phía trước.`,
+    buttonLabel: 'Xem thêm',
+    imgStart: true,
+    img1: require('../../images/school.jpg').default,
+    img2: require('../../images/school2.jpg').default,
+    img3: require('../../images/school3.jpg').default,
+    alt: 'school',
+    dark: false,
+    primary: true,
+    darkText: true,
+};
 
