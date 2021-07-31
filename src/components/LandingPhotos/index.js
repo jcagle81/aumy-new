@@ -1,12 +1,13 @@
 import React, {useState, useEffect} from 'react'
-import { ServicesContainer, Servicesh1, ServicesWrapper, ServicesCard, ServicesIcon, Servicesh2, ServicesP, BtnWrap} from './ServiceElements';
-import kinder from '../../images/kinder.jpg';
-import junior from '../../images/junior.jpg';
-import senior from '../../images/highschool.png'
+import { ServicesContainer, Servicesh1, ServicesWrapper, ServicesCard, ServicesIcon, Servicesh2, ServicesP, BtnWrap} from './PhotosElements';
+import inclass from '../../images/inclass.jpg';
+import outside from '../../images/outsidelearning.jpg';
+import ceremony from '../../images/ceremony.jpg'
+import teachers from '../../images/teachers.jpg'
 import {animateScroll as scroll} from 'react-scroll'
 
 
-const Services = (primary, dark, dark2) => {
+const LandingPhotos = (primary, dark, dark2) => {
 
     const [scrollNav, setScrollNav] = useState(false)
 
@@ -27,8 +28,8 @@ const Services = (primary, dark, dark2) => {
     }
 
     return (
-        <ServicesContainer id="classes">
-            <Servicesh1>CHƯƠNG TRÌNH TIÊU BIỂU</Servicesh1>
+        <ServicesContainer id="photos">
+            <Servicesh1>Album</Servicesh1>
             <ServicesWrapper>
                 <BtnWrap scrollNav={scrollNav}
                  to='/kinder'
@@ -38,9 +39,9 @@ const Services = (primary, dark, dark2) => {
                  dark2={dark2 ? 1 : 0}
                  onClick={toggleHome}>
                 <ServicesCard >
-                    <ServicesIcon src={kinder} />
-                    <Servicesh2>ANH VĂN MẪU GIÁO</Servicesh2>
-                    <ServicesP>Phương pháp trực quan sinh động kết hợp với tình huống thực tế. Các bé sẽ được học qua các đoạn video , tranh , ảnh, đồ vật thật</ServicesP>
+                    <ServicesIcon src={inclass} />
+                    <Servicesh2>In Class Learning</Servicesh2>
+                    <ServicesP>description</ServicesP>
                 </ServicesCard>
                 </BtnWrap>
                 <BtnWrap scrollNav={scrollNav}
@@ -51,9 +52,9 @@ const Services = (primary, dark, dark2) => {
                  dark2={dark2 ? 1 : 0}
                  onClick={toggleHome}>
                 <ServicesCard>
-                    <ServicesIcon src={junior} />
-                    <Servicesh2>ANH VĂN THIẾU NHI</Servicesh2>
-                    <ServicesP>Tại ngoại ngữ ÂU MỸ, chương trình Anh Văn thiếu nhi 100% Giáo Viên Bản Ngữ được xây dựng chuyên sâu dành cho độ tuổi thiếu niên nhằm cung... </ServicesP>
+                    <ServicesIcon src={outside} />
+                    <Servicesh2>Out of Class Learning</Servicesh2>
+                    <ServicesP>discription</ServicesP>
                 </ServicesCard>
                 </BtnWrap>
                 <BtnWrap scrollNav={scrollNav}
@@ -64,9 +65,22 @@ const Services = (primary, dark, dark2) => {
                  dark2={dark2 ? 1 : 0}
                  onClick={toggleHome}>
                 <ServicesCard>
-                    <ServicesIcon src={senior} />
-                    <Servicesh2>ANH VĂN THIẾU NIÊN</Servicesh2>
-                    <ServicesP>Ở giai đoạn này nếu bạn có định hướng cho trẻ đi du học hoặc học tập trong môi trường quốc tế và hoàn thiện các kỹ năng mềm để có thể chuẩn bị tốt...</ServicesP>
+                    <ServicesIcon src={ceremony} />
+                    <Servicesh2>Awards and Ceremonies</Servicesh2>
+                    <ServicesP>description</ServicesP>
+                </ServicesCard>
+                </BtnWrap>
+                <BtnWrap scrollNav={scrollNav}
+                 to='/senior'
+                 offset={-80}
+                 primary={primary ? 1 : 1}
+                 dark={dark ? 1 : 1}
+                 dark2={dark2 ? 1 : 0}
+                 onClick={toggleHome}>
+                <ServicesCard>
+                    <ServicesIcon src={teachers} />
+                    <Servicesh2>Teachers</Servicesh2>
+                    <ServicesP>Description</ServicesP>
                 </ServicesCard>
                 </BtnWrap>
             </ServicesWrapper>
@@ -74,4 +88,4 @@ const Services = (primary, dark, dark2) => {
     )
 }
 
-export default Services;
+export default LandingPhotos;

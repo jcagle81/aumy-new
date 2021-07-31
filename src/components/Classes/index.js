@@ -1,12 +1,13 @@
 import React, {useState, useEffect} from 'react'
-import { ServicesContainer, Servicesh1, ServicesWrapper, ServicesCard, ServicesIcon, Servicesh2, ServicesP, BtnWrap} from './ServiceElements';
+import { ServicesContainer, Servicesh1, ServicesWrapper, ServicesCard, ServicesIcon, Servicesh2, ServicesP, BtnWrap, } from './ClassesElements';
 import kinder from '../../images/kinder.jpg';
 import junior from '../../images/junior.jpg';
 import senior from '../../images/highschool.png'
 import {animateScroll as scroll} from 'react-scroll'
+import video from '../../video/video.mp4';
 
 
-const Services = (primary, dark, dark2) => {
+const Classes = (primary, dark, dark2) => {
 
     const [scrollNav, setScrollNav] = useState(false)
 
@@ -27,7 +28,8 @@ const Services = (primary, dark, dark2) => {
     }
 
     return (
-        <ServicesContainer id="classes">
+        <ServicesContainer>
+            
             <Servicesh1>CHƯƠNG TRÌNH TIÊU BIỂU</Servicesh1>
             <ServicesWrapper>
                 <BtnWrap scrollNav={scrollNav}
@@ -74,4 +76,4 @@ const Services = (primary, dark, dark2) => {
     )
 }
 
-export default Services;
+export default Classes;

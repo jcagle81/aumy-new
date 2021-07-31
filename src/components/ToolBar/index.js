@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './ToolbarElements';
 import logo from '../../images/logo.png';
+import {animateScroll as scroll} from 'react-scroll'
 
 
 const ToolBar = ({ toggle }) => {
@@ -20,7 +21,7 @@ useEffect(() => {
 }, [])
      
 const toggleHome = () => {
-    // scroll.scrollToTop();
+    scroll.scrollToTop();
 }
            
     return (

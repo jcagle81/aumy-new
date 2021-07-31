@@ -4,7 +4,7 @@ import { FaFacebook } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <FooterContainer>
+        <FooterContainer id="footer">
             <FooterWrap>
                 <FooterLinksContainer>
                     <FooterLinksWrapper>

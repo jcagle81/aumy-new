@@ -1,9 +1,28 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { Button } from '../ButtonElement2'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper,  TopLine, Heading, Subtitle, BtnWrap, BtnWrapTwo, ImgWrap, Img } from './InfoElements';
+import {animateScroll as scroll} from 'react-scroll'
 
 const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2 }) => {
+
+    const [scrollNav, setScrollNav] = useState(false)
+
+    const changeNav = ()=> {
+        if (window.scrollY >= 80) {
+            setScrollNav(true)
+        }  else{
+            setScrollNav(false)
+        }
+    }
+    
+    useEffect(() => {
+        window.addEventListener('scroll', changeNav)
+    }, [])
+         
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    }
+
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -14,15 +33,15 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, de
                             <Heading lightText={lightText}>{headline}</Heading>
                             <TopLine>{topLine}</TopLine>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
-                            <BtnWrap>
-                                <Link to='/aumy'>
-                                    <Button 
+                            <BtnWrap scrollNav={scrollNav}>
+                             
+                                    <Button  to='/aumy'
                                     offset={-80}
                                     primary={primary ? 1 : 1}
                                     dark={dark ? 1 : 1}
                                     dark2={dark2 ? 1 : 0}
-                                    >{buttonLabel}</Button>
-                                </Link>
+                                    onClick={toggleHome}>{buttonLabel}</Button>
+                                
                             </BtnWrap>
                         </TextWrapper>
                         </Column1>
@@ -30,7 +49,7 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, de
                         <ImgWrap>
                         <Img src={img} alt={alt} />
                         </ImgWrap>
-                        <BtnWrapTwo>
+                        <BtnWrapTwo scrollNav={scrollNav}>
                                 <Button to='aumy'
                                 smooth={true}
                                 duration={500}
@@ -40,7 +59,7 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, de
                                 primary={primary ? 1 : 1}
                                 dark={dark ? 1 : 1}
                                 dark2={dark2 ? 1 : 0}
-                                >{buttonLabel}</Button>
+                                onClick={toggleHome}>{buttonLabel}</Button>
                             </BtnWrapTwo>
                         </Column2>
                     </InfoRow>

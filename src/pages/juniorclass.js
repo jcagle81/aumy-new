@@ -2,11 +2,11 @@ import React, {useState} from 'react';
 import ToolBar from '../components/ToolBar';
 import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
-import About from '../components/About/index';
-import { AboutObj } from '../components/InfoSection/data';
+import Junior from '../components/Junior';
+import { JuniorObj } from '../components/InfoSection/data';
 
 
-const Aumy = () => {
+const JuniorClass = () => {
 
     const[isOpen, setIsOpen] = useState(false)
 
@@ -18,11 +18,11 @@ const Aumy = () => {
         <> 
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <ToolBar toggle={toggle} />
-        <About {...AboutObj} />
+        <Junior {...JuniorObj} />
         <Footer />
         
        </> 
     )
 }
 
-export default Aumy
+export default JuniorClass

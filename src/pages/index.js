@@ -5,7 +5,9 @@ import Landing from '../components/LandingSection';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Services from '../components/Services';
-import Footer from '../components/Footer'
+import Footer from '../components/Footer';
+import LandingPhotos from '../components/LandingPhotos';
+import News from '../components/NewsSection';
 
 const Home = () => {
     const[isOpen, setIsOpen] = useState(false)
@@ -23,6 +25,8 @@ const Home = () => {
         <Landing />
         <Info {...homeObjOne} />
         <Services />
+        <LandingPhotos />
+        <News />
         <Footer />
        </> 
     );

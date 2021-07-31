@@ -33,7 +33,7 @@ export const homeObjtwo = {
 };
 
 export const AboutObj = {
-    id: 'classes',
+    id: 'schoolinfo',
     lightBg: true,
     lightText: false,
     lightTextDesc: true,
@@ -59,3 +59,99 @@ export const AboutObj = {
     darkText: true,
 };
 
+export const KinderObj = {
+    id: 'Kindergarten Info',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: '',
+    headline: 'ANH VĂN MẪU GIÁO',
+    description: 'Phụ huynh sẽ được tham gia sinh hoạt đầu khóa và xác nhận nội dung học tập hàng ngày thông qua sổ báo bài. Phụ huynh được quyền đánh giá trực tiếp giáo viên để cùng giúp bé tiến bộ hơn.',
+    info1:` -  Chương trình  anh văn mẫu giáo 100% Giáo Viên Bản Ngữ sẽ giúp các Bé được hòa mình vào môi trường Anh ngữ sống động với những sinh hoạt giàu tính tương tác như đóng kịch, múa hát, làm thủ công, xem hoạt hình, tham gia các trò chơi…Những hoạt động này giúp bé phát triển hài hòa về các mặt: tư duy ngôn ngữ, sự nhận thức, lòng tự tin, và kỹ năng xã hội, bé yêu của bạn sẽ tự tin hẳn khi bước vào lớp một và chuẩn bị cho các kỳ thi quốc tế.
+    `,
+    info2:`- Đội ngũ giáo viên giàu kinh nghiệm,  yêu trẻ, năng lực chuyên môn vững, nhiệt tình sẽ vừa là người thầy giúp bé học thật tốt, vừa là người bạn đồng hành của bé trong các cuộc vui.
+    `,
+    info3:`-   Đội ngũ giáo viên bản ngữ tận tâm đến từ các nước nói tiếng Anh trên thế giới giúp bé hoàn thiện khả năng phát âm và năng lực giao tiếp.
+    `,
+    info4:`-   Có Giáo Viên trợ giảng trong suốt khóa học giúp bé tự tin giao tiếp hơn.
+    `,
+    info5:`-  Giáo trình “BEBOP" kết hợp với phương tiện học tập hiện đại đem đến cho bé những bài học tiếng Anh sinh động và hiệu quả cao.
+    `,
+    info6:`-  Các hoạt động ngoại khóa vui nhộn, hào hứng thường xuyên được tổ chức vào những ngày lễ như: Trung thu, Giáng sinh, Halloween, Quốc tế thiếu nhi…đem đến cho các bé nhiều niềm vui và kiến thức tiếng Anh thực tế và bổ ích.
+    `,
+    info7:`  -  Liên lạc chặt chẽ với phụ huynh
+    `,
+    info8:``,
+    buttonLabel: 'Xem thêm',
+    imgStart: false,
+    img1: require('../../images/kinder1.jpg').default,
+    img2: require('../../images/kinder2.jpg').default,
+    img3: require('../../images/kinder3.jpg').default,
+    alt: 'school',
+    dark: false,
+    primary: true,
+    darkText: true,
+};
+
+export const JuniorObj = {
+    id: 'Junior Info',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: '',
+    headline: 'ANH VĂN THIẾU NHI',
+    description: 'Tại ngoại ngữ ÂU MỸ, chương trình  Anh Văn thiếu nhi 100% Giáo Viên Bản Ngữ được xây dựng chuyên sâu dành cho độ tuổi thiếu niên nhằm cung cấp cho các em khả năng ngôn ngữ,  những kỹ năng cần thiết để thành công trong kỳ thi chứng chỉ quốc tế Cambridge: Staters – Movers – Flyers và TOEFL Primary.',
+    info1:` -   Đội ngũ giáo viên giàu kinh nghiệm giảng dạy, nhiệt tình hướng dẫn học viên.
+    `,
+    info2:`- Giáo viên bản xứ đến từ các nước Anh, Úc, Mỹ, Canada, New Zealand đạt chứng chỉ  TESOL, CELTA.
+    `,
+    info3:`-   Cam kết chất lượng đầu ra:
+    `,
+    info4:`   *Đạt 13+ khiên Cambridge..
+    `,
+    info5:`*  Điểm 8+ các kỳ thi học kỳ tại trường.
+    `,
+    info6:`*  Học viên được học lại miễn phí nếu không đạt.
+    `,
+    info7:`  -  iáo trình chuẩn, nguồn học liệu phong phú, cùng phương tiện học tập hiện đại sẽ trang bị cho các em đầy đủ 4 kỹ năng: Nghe, Nói, Đọc, Viết. Các em được luyện nghe nói, luyện phát âm trực tiếp với giáo viên bản ngữ, đồng thời nâng cao vốn từ vựng và ngữ pháp thông qua các hoạt động học mang tính tương tác.
+    `,
+    info8:`- Đặc biệt, chương trình còn góp phần nâng cao khả năng tiếng Anh cho học sinh phổ thông và chuyên ngữ, giúp các em đạt kết quả cao trong các kỳ thi tại các trường .
+    `,
+    info9:`- Ngoài ra các hoạt động ngoại khóa thú vị và bổ ích được tổ chức thường xuyên không những đem đến cho các em những giây phút thư giãn vui nhộn, mà còn cung cấp nhiều kiến thức tiếng Anh cần thiết.    
+    `,
+    buttonLabel: 'Xem thêm',
+    imgStart: true,
+    img1: require('../../images/junior1.jpg').default,
+    img2: require('../../images/junior2.jpg').default,
+    img3: require('../../images/junior3.jpg').default,
+    alt: 'school',
+    dark: false,
+    primary: false,
+    darkText: true,
+};
+
+export const SeniorObj = {
+    id: 'Senior Info',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: '',
+    headline: 'ANH VĂN THIẾU NIÊN',
+    description: 'Tại ngoại ngữ ÂU MỸ, chương trình  Anh Văn thiếu nhi 100% Giáo Viên Bản Ngữ được xây dựng chuyên sâu dành cho độ tuổi thiếu niên nhằm cung cấp cho các em khả năng ngôn ngữ,  những kỹ năng cần thiết để thành công trong kỳ thi chứng chỉ quốc tế Cambridge: Staters – Movers – Flyers và TOEFL Primary.',
+    info1:` -   Khoá học Anh văn thiếu niên 100% Giáo Viên Bản Ngữ dành sẽ giúp bạn đạt được mục đích này. Chương trình sẽ cung cấp cho học viên những buổi học lý thuyết về kỹ năng Ngoại ngữ cùng với những buổi học dựa trên các hoạt động phong phú để các em có thể phát triển những kỹ năng mềm khác nhau.
+    `,
+    info2:`- Giáo án của khoá học Anh ăn thiếu niên còn tạo điều kiện cho học viên tiếp xúc với các chuẩn giảng dạy Cambridge như KET – PET , chuẩn TOEFL Junior, và chuẩn IELTS.
+    `,
+    info3:`-   Các em sẽ được tham gia các chương trình ngoại khóa đầy bổ ích và thú vị như: câu lạc bộ tiếng anh, các buổi dã ngoại  được tổ chức thường xuyên giúp các em phát triển hơn về kỹ năng giao tiếp ngôn ngữ , nâng cao kỹ năng sống.
+    `,
+    
+    buttonLabel: 'Xem thêm',
+    imgStart: true,
+    img1: require('../../images/senior1.jpg').default,
+    img2: require('../../images/senior2.jpg').default,
+    img3: require('../../images/senior3.jpg').default,
+    alt: 'school',
+    dark: false,
+    primary: false,
+    darkText: true,
+};

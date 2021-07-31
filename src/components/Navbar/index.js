@@ -39,10 +39,10 @@ const toggleHome = () => {
                             <NavLinks to="classes" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Nhiều lớp học</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="services" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Thư viện ảnh</NavLinks>
+                            <NavLinks to="photos" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Thư viện ảnh</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="signup" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Tin tức và sự kiện</NavLinks>
+                            <NavLinks to="news" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Tin tức và sự kiện</NavLinks>
                         </NavItem>
                     </NavMenu>
                     {/* <NavBtn>

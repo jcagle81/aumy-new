@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import video from '../../video/video.mp4';
 import {Button} from '../ButtonElement';
 import logo from '../../images/logo.png';
-import { LandingContainer, LandingBg, VideoBg, LandingContent, LandingH1, LandingP, LandingBtnWrapper, ArrowForward, ArrowRight, BackgroundFilter } from './LandingElements';
+import { LandingContainer, LandingBg, VideoBg, LandingContent, LandingH1, LandingP, LandingBtnWrapper, BackgroundFilter } from './LandingElements';
 
 const Landing = () => {
     const[hover, setHover] = useState(false)
@@ -25,13 +25,14 @@ const Landing = () => {
                 Thành công của bạn là mục tiêu của chúng tôi!
                 </LandingP>
                 <LandingBtnWrapper>
-                    <Button to="register" onMouseEnter={onHover} onMouseLeave={onHover} onMouseLeave={onHover} primary="true" dark="true" smooth={true} duration={500} spy={true} exact='true' offset={-80} >
+                    {/* <Button to="footer" onMouseEnter={onHover} onMouseLeave={onHover} onMouseLeave={onHover} primary="true" dark="true" smooth={true} duration={500} spy={true} exact='true' offset={-80} >
                         Get Started {hover ? <ArrowForward /> : <ArrowRight />}
-                    </Button>
+                    </Button> */}
                 </LandingBtnWrapper>
             </LandingContent>
         </LandingContainer>
     )
 }
+
 
 export default Landing
